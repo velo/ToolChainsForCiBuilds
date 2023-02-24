@@ -3,6 +3,15 @@
   <toolchain>
     <type>jdk</type>
     <provides>
+      <version>1.8</version>
+    </provides>
+    <configuration>
+      <jdkHome>/usr/lib/jvm/java-8-openjdk-amd64</jdkHome>
+    </configuration>
+  </toolchain>
+  <toolchain>
+    <type>jdk</type>
+    <provides>
       <version>8</version>
     </provides>
     <configuration>
