@@ -17,3 +17,6 @@ COPY . /root/test
 RUN mvn clean install
 
 FROM build as export
+
+# overide maven env, as breaks mvnw command
+ENV MAVEN_CONFIG ""
