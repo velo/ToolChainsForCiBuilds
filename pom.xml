@@ -50,7 +50,7 @@
                                 <arguments>
                                     <argument>-c</argument>
                                     <argument>
-                                        echo "Version 52 = Java 8, Version 55 = Java 11, Version 61 = Java 17";
+                                        echo "Version 52 = Java 8, Version 55 = Java 11, Version 61 = Java 17, Version 65 = Java 21";
                                         echo "Code: $(javap -v ./target/classes/nl/basjes/experiment/App.class | fgrep major)" ;
                                         echo "Test: $(javap -v ./target/test-classes/nl/basjes/experiment/TestApp.class | fgrep major)";
                                     </argument>
@@ -78,6 +78,7 @@
         <module>JDK8</module>
         <module>JDK11</module>
         <module>JDK17</module>
+        <module>JDK21</module>
     </modules>
 
 </project>
